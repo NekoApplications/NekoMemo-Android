@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">猫猫备忘录</string>
+    <string name="menu_notes">记事</string>
+    <string name="menu_reminder">提醒</string>
+    <string name="menu_setting">设置</string>
+</resources>

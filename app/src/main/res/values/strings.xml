@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NekoMemo</string>
+
+    <string name="menu_notes">Notes</string>
+    <string name="menu_reminder">Reminders</string>
+    <string name="menu_setting">Settings</string>
+
+</resources>
