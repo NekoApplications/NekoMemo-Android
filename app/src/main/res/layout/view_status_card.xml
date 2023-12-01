@@ -10,8 +10,8 @@
         style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:outlineAmbientShadowColor="?colorPrimary"
-        android:outlineSpotShadowColor="?colorPrimary"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:outlineSpotShadowColor="@android:color/transparent"
         android:stateListAnimator="@null"
         app:cardBackgroundColor="#555555"
         app:cardElevation="6dp"
@@ -28,7 +28,7 @@
                 android:layout_height="24dp"
                 android:layout_centerVertical="true"
                 app:srcCompat="@drawable/ic_baseline_circle_24"
-                app:tint="?colorOnPrimary"
+                app:tint="?colorOnSecondary"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -39,8 +39,7 @@
                 android:layout_toEndOf="@id/status_icon"
                 android:fontFamily="sans-serif-medium"
                 android:text=""
-                android:textAppearance="?textAppearanceTitleMedium"
-                android:textColor="?colorOnPrimary"
+                android:textColor="?attr/colorOnSecondary"
                 android:textSize="18sp" />
 
         </RelativeLayout>

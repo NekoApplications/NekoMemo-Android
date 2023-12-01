@@ -7,4 +7,5 @@
     <color name="syncOff">#FFD740</color>
     <color name="syncOn">#B2FF59</color>
     <color name="syncError">#FF5252</color>
+    <color name="launcherIconBackground">#FF80AB</color>
 </resources>

@@ -26,7 +26,7 @@ class SettingFragment : Fragment() {
         val settingViewModel = ViewModelProvider(this)[SettingViewModel::class.java]
         _binding = FragmentSettingBinding.inflate(inflater, container, false)
 
-        binding.syncStatusCard.setSyncStatusToView(requireContext(), SyncStatus.entries.toSet().random())
+        binding.syncStatusCard.setSyncStatusToView(requireContext(), SyncStatus.ENABLED)
         return binding.root
     }
 
