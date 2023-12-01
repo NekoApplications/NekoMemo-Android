@@ -4,5 +4,8 @@
     <string name="menu_notes">Notes</string>
     <string name="menu_reminder">Reminders</string>
     <string name="menu_setting">Settings</string>
+    <string name="text_sync_off">Sync is off</string>
+    <string name="text_sync_on">Sync is on</string>
+    <string name="text_sync_error">Sync error</string>
 
 </resources>

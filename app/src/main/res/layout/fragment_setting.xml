@@ -5,4 +5,16 @@
     android:layout_height="match_parent"
     tools:context="net.zhuruoling.nekomemo.setting.SettingFragment">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <net.zhuruoling.nekomemo.views.StatusCardView
+            android:id="@+id/sync_status_card"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

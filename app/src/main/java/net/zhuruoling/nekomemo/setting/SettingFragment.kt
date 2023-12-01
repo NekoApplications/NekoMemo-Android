@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import net.zhuruoling.nekomemo.databinding.FragmentSettingBinding
+import net.zhuruoling.nekomemo.sync.SyncStatus
+import net.zhuruoling.nekomemo.sync.setSyncStatusToView
 
 class SettingFragment : Fragment() {
 
@@ -23,6 +25,8 @@ class SettingFragment : Fragment() {
     ): View {
         val settingViewModel = ViewModelProvider(this)[SettingViewModel::class.java]
         _binding = FragmentSettingBinding.inflate(inflater, container, false)
+
+        binding.syncStatusCard.setSyncStatusToView(requireContext(), SyncStatus.entries.toSet().random())
         return binding.root
     }
 
