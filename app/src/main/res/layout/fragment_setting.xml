@@ -10,6 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <net.zhuruoling.nekomemo.views.StatusCardView
             android:id="@+id/sync_status_card"
             android:layout_marginVertical="10dp"

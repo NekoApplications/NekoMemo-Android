@@ -45,7 +45,7 @@ dependencies {
     implementation(fileTree("libs") {
         include("*.jar")
     })
-    implementation("com.blankj:utilcodex:1.31.0")
+    implementation(libs.utilcodex)
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)

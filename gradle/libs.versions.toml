@@ -1,6 +1,6 @@
 [versions]
 activity-compose = "1.8.1"
-agp = "8.3.0-alpha15"
+agp = "8.3.0-alpha14"
 androidx-navigation-fragment-ktx = "2.7.3"
 androidx-navigation-ui-ktx = "2.7.3"
 fragment-ktx = "1.6.2"
@@ -17,6 +17,7 @@ navigation-fragment-ktx = "2.7.4"
 navigation-ui-ktx = "2.7.4"
 preference-ktx = "1.2.1"
 swiperefreshlayout = "1.1.0"
+utilcodex = "1.31.0"
 ktor = "2.3.6"
 gson = "2.10.1"
 
@@ -47,6 +48,8 @@ ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "kto
 ktor-client-serialization = { module = "io.ktor:ktor-client-serialization", version.ref = "ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
 
+rikkax-material = { module = "dev.rikka.rikkax.material:material", version = "2.7.0" }
+utilcodex = { module = "com.blankj:utilcodex", version.ref = "utilcodex" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
