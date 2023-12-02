@@ -1,6 +1,6 @@
 [versions]
 activity-compose = "1.8.1"
-agp = "8.3.0-alpha14"
+agp = "8.3.0-alpha15"
 androidx-navigation-fragment-ktx = "2.7.3"
 androidx-navigation-ui-ktx = "2.7.3"
 fragment-ktx = "1.6.2"
@@ -17,8 +17,11 @@ navigation-fragment-ktx = "2.7.4"
 navigation-ui-ktx = "2.7.4"
 preference-ktx = "1.2.1"
 swiperefreshlayout = "1.1.0"
+ktor = "2.3.6"
+gson = "2.10.1"
 
 [libraries]
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
 androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity-compose" }
 androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment-ktx" }
@@ -38,6 +41,12 @@ material = { group = "com.google.android.material", name = "material", version.r
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
 navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation-ui-ktx" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-serialization = { module = "io.ktor:ktor-client-serialization", version.ref = "ktor" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

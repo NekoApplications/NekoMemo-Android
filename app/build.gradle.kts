@@ -41,6 +41,10 @@ android {
 }
 
 dependencies {
+
+    implementation(fileTree("libs") {
+        include("*.jar")
+    })
     implementation("com.blankj:utilcodex:1.31.0")
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
@@ -59,13 +63,20 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.fragment.ktx)
     testImplementation(libs.junit)
+
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.content.negotiation)
+    implementation(libs.ktor.client.serialization)
+    implementation(libs.ktor.client.okhttp)
+    implementation(libs.gson)
+
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
 
-materialThemeBuilder{
-    themes{
-        create("NekoPink"){
+materialThemeBuilder {
+    themes {
+        create("NekoPink") {
             lightThemeParent = "Theme.Material3.DayNight.NoActionBar"
             darkThemeParent = "Theme.Material3.DayNight.NoActionBar"
             lightThemeFormat = "Theme.Light.%s"
