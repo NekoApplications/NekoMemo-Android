@@ -46,4 +46,11 @@ class StatusCardView : LinearLayout {
         statusTextView = findViewById(R.id.status_text)
     }
 
+    override fun setOnClickListener(l: OnClickListener?) {
+        super.setOnClickListener(l)
+        backgroundCard.setOnClickListener(l)
+        statusImageView.setOnClickListener(l)
+        statusTextView.setOnClickListener(l)
+    }
+
 }

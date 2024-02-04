@@ -7,5 +7,12 @@
     <string name="text_sync_off">Sync is off</string>
     <string name="text_sync_on">Sync is on</string>
     <string name="text_sync_error">Sync error</string>
-
+    <string name="text_sync_error_title">Sync Error</string>
+    <string name="text_sync_error_summary">Check your sync server setting or network, and try again.</string>
+    <string name="text_sync_off_title">Sync off</string>
+    <string name="text_sync_off_summary">Check your sync server setting or network, and try again.</string>
+    <string name="label_try_again">Try Again</string>
+    <string name="label_configure_data_sync">Data Sync</string>
+    <string name="label_reminder_setting">Reminders</string>
+    <string name="label_note_setting">Notes</string>
 </resources>
